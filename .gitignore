@@ -2,6 +2,7 @@
 .idea
 *.bak
 *.tmp
+dbConnection.php
 /photos
 sshKeyGitHub*
 /presentation/backup*
