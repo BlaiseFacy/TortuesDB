@@ -1,0 +1,11 @@
+/backup*
+.idea
+*.bak
+*.tmp
+/photos
+sshKeyGitHub*
+/presentation/backup*
+/presentation/ressources
+/ressources
+/zMenuMobile
+/ztodelete

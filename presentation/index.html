@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+<title>Collection de tortues</title>
+<link href="http://perso.wanadoo.fr/rfy/tortue.ico" rel="shortcut icon">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="tortues, tortue, chélonien, chéloniens, collection, collections, collectionneur, collectionneurs">
+<meta name="keywords" content="reptile, reptiles, turtle, tortoise">
+<meta name="description" content="Présentation d'une collection de tortues de plus de 36000 pièces, de tous matériaux et de toutes formes">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<link href="./css/simple-sidebar.css" rel="stylesheet">
+<link href="./css/tortues.css" rel="stylesheet">
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/swfobject.js"></script>
+</head>
+
+<body>
+
+<script language="JavaScript">
+	var isMobile = {
+		Android: function() {
+			return navigator.userAgent.match(/Android/i);
+		},
+		BlackBerry: function() {
+			return navigator.userAgent.match(/BlackBerry/i);
+		},
+		iOS: function() {
+			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		},
+		Opera: function() {
+			return navigator.userAgent.match(/Opera Mini/i);
+		},
+		Windows: function() {
+			return navigator.userAgent.match(/IEMobile/i);
+		},
+		any: function() {
+			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+		}
+	};
+	var version;
+	var son;
+	if (swfobject.hasFlashPlayerVersion("1") && window.innerWidth > 768) version = "avecFlash";
+	else version = "sansFlash";
+	if (window.innerWidth > 768) son = "on";
+	else son = "off";
+	document.location = "./presentation.php?version=" + version + "&son=" + son;
+</script>
+
+</body>
+
+</html>

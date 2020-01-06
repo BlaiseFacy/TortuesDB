@@ -1,0 +1,399 @@
+body {
+	cursor: url(../pics/curseur_turtle32vert.cur), pointer;
+	/*cursor: url(../pics/curseur_turtle32nb.cur), pointer;*/
+	/*cursor: url(../pics/curseur_turtle32nb2.cur), pointer;*/
+}
+
+.EscherIrise {
+	background-image: url(../pics/bandetortueEscherIrise.png);
+}
+.EscherIrise_portrait {
+	background-image: url(../pics/bandetortueEscherIrise_verticale.png);
+}
+.EscherNB, .EscherNB_portrait {
+	background-image: url(../pics/fondTortueBlanc.png);
+}
+.GreenTexture, .GreenTexture_portrait {
+	background-image: url(../pics/fondTurtleTexture.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.DarkTexture, .DarkTexture_portrait {
+	background-image: url(../pics/fondTurtleDarkTexture.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.GrossesEcailles, .GrossesEcailles_portrait {
+	background-image: url(../pics/fondEcaillesTexture.jpg);
+}
+.TortueNinja, .TortueNinja_portrait {
+	background-image: url(../pics/fondTortueNinja.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.EscherMatrix, .EscherMatrix_portrait {
+	background-image: url(../pics/fondTortueMatrix.png);
+}
+.EscherOrange, .EscherOrange_portrait {
+	background-image: url(../pics/fondTortueOrange.png);
+}
+.EscherGrandBleu, .EscherGrandBleu_portrait {
+	background-image: url(../pics/fondTortueGrandBleu.png);
+}
+.EscherKitty, .EscherKitty_portrait {
+	background-image: url(../pics/fondTortueKitty.png);
+}
+.EscherMove, .EscherMove_portrait {
+	background-image: url(../pics/fondTortueMove.png);
+}
+.OptiqueDamier, .OptiqueDamier_portrait {
+	background-image: url(../pics/fondTortueOptiqueDamier.png);
+	background-position: left bottom;
+}
+.Haos, .Haos_portrait {
+	background-image: url(../pics/fondTortueHaos.png);
+}
+.NemoCrush {
+	background-image: url(../pics/fondNemoCrush.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.NemoCrush_portrait {
+	background-image: url(../pics/fondNemoCrush_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.NemoSquiz {
+	background-image: url(../pics/fondNemoSquiz.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.NemoSquiz_portrait {
+	background-image: url(../pics/fondNemoSquiz_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.WaterColor {
+	background-image: url(../pics/fondWaterColorTurtle.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.WaterColor_portrait {
+	background-image: url(../pics/fondWaterColorTurtle_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TortueMarine {
+	background-image: url(../pics/fondTortueMarine.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TortueMarine_portrait {
+	background-image: url(../pics/fondTortueMarine_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TortueMarineGP {
+	background-image: url(../pics/fondTortueMarineGP.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TortueMarineGP_portrait {
+	background-image: url(../pics/fondTortueMarineGP_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.bbTortue {
+	background-image: url(../pics/fondBebeTortue.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.bbTortue_portrait {
+	background-image: url(../pics/fondBebeTortue_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.BabyTortoise {
+	background-image: url(../pics/fondBabyTortoise.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.BabyTortoise_portrait {
+	background-image: url(../pics/fondBabyTortoise_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.BabyFire {
+	background-image: url(../pics/fondBabyFire.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.BabyFire_portrait {
+	background-image: url(../pics/fondBabyFire_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.AborigeneVert, .AborigeneVert_portrait {
+	background-image: url(../pics/fondAborigeneVert.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.DeepBluePaint {
+	background-image: url(../pics/fondDeepBluePaint.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.DeepBluePaint_portrait {
+	background-image: url(../pics/fondDeepBluePaint_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TurtleFly {
+	background-image: url(../pics/fondTurtleFly.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TurtleFly_portrait {
+	background-image: url(../pics/fondTurtleFly_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TurtleWalkBack {
+	background-image: url(../pics/fondTurtleWalkBack.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.TurtleWalkBack_portrait {
+	background-image: url(../pics/fondTurtleWalkBack_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.RedSeaTurtle {
+	background-image: url(../pics/fondRedSeaTurtle.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+.RedSeaTurtle_portrait {
+	background-image: url(../pics/fondRedSeaTurtle_portrait.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: left bottom;
+}
+
+.transparent100pc {
+	background-color: transparent;
+}
+.transparent90pc {
+	background-image: url(../pics/fondTransp90pc.png);
+}
+.transparent80pc {
+	background-image: url(../pics/fondTransp80pc.png);
+}
+.transparent70pc {
+	background-image: url(../pics/fondTransp70pc.png);
+}
+.transparent60pc {
+	background-image: url(../pics/fondTransp60pc.png);
+}
+.transparent50pc {
+	background-image: url(../pics/fondTransp50pc.png);
+}
+.transparent40pc {
+	background-image: url(../pics/fondTransp40pc.png);
+}
+.transparent30pc {
+	background-image: url(../pics/fondTransp30pc.png);
+}
+.transparent20pc {
+	background-image: url(../pics/fondTransp20pc.png);
+}
+.transparent10pc {
+	background-image: url(../pics/fondTransp10pc.png);
+}
+.transparent0pc {
+	background: white;
+}
+.transparentBlanc {
+	background-image: url(../pics/fondTranspBlanc.png);
+}
+.transparentNoir {
+	background-image: url(../pics/fondTranspNoir.png);
+}
+
+.EscherTransparent {
+	background-image: url(../pics/fondTortueEscherEpureTransp.png);
+	background-size: 50px 50px;
+}
+
+.argent {
+	background-image: url(../pics/bandeargent.jpg);
+}
+
+table.couleur {
+	background-color: transparent;
+	border-color: #000000;
+	border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	color: #673418;
+	font-size: 12px;
+	font-family :verdana;
+	border-spacing: 1px;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+table.couleur tr.titre {
+	background-image: url(../pics/fondtabtitre_marron.png);
+	color: #000000;
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 20px;
+	text-align: center;
+}
+table.couleur tr.formulaire {
+	color: #000000;
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;
+}
+table.couleur tr.clair {
+	background-color: #EFFFF3;
+}
+table.couleur tr.fonce {
+	background-color: #E7FFE5;
+}
+table.couleur tr.jaune {
+	background-color: #FFFFC8;
+}
+table.couleur tr.blancMos {
+	background-image: url(../pics/fondTortueBlancPur.png);
+}
+table.couleur tr.jauneIntense {
+	background-color: #FFFF00;
+	color: #000;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+}
+table.couleur tr.JauneIntenseMos {
+	background-image: url(../pics/fondtortueJauneIntense.png);
+	color: #000;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+}
+table.couleur td
+{
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #000;
+	padding: 1px;
+}
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}

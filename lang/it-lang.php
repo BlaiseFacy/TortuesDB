@@ -1,0 +1,53 @@
+<?php
+
+define("TXT_HOME", "Home");
+define("TXT_SEARCH", "Ricerca");
+define("TXT_STATS", "Statistica");
+define("TXT_NUMBER", "Numero");
+define("TXT_CATEGORY", "Categoria");
+define("TXT_MATERIAL", "Materiale");
+define("TXT_FORM", "Forma");
+define("TXT_YEAR", "Anno");
+define("TXT_NUMISMAT", "Francobolli / Banconote / Moneta");
+define("TXT_PLACE", "Luogo");
+define("TXT_COLOR", "Colore");
+define("TXT_WEIGHT", "Peso");
+define("TXT_SIZE", "Dimensione");
+define("TXT_VOLUME", "Volume");
+define("TXT_DIMENSIONS", "Dimensioni");
+define("TXT_PRICE", "Prezzo");
+define("TXT_QUANTITY", "Quantità");
+define("TXT_TYPE", "Tipo");
+define("TXT_GROUP_BY", "Groupo por");
+define("TXT_SORT_BY", "Ordenar por");
+define("TXT_ASCENDING", "Crescente");
+define("TXT_DESCENDING", "Decrescente");
+define("TXT_FILTER_BOOKMARKS", "Filtro segnalibri");
+define("TXT_MAIN_MATERIAL", "Materiale principale");
+define("TXT_EXACT_FORM", "Forma esatta");
+define("TXT_EXACT_PLACE", "Luogo esatto");
+define("TXT_EXACT_COLOR", "Colore esatto");
+define("TXT_PHOTO", "Foto");
+define("TXT_COMMENTS", "Commenti");
+define("TXT_YEAR_OF_ISSUE", "Anno emissione");
+define("TXT_PLACE_OF_ISSUE", "Luogo emissione");
+define("TXT_NUMISMATIC", "numismatico");
+define("TXT_SEARCH_FILTERS", "FILTRI DI RICERCA");
+define("TXT_ALL_MALE", "Tutto");
+define("TXT_ALL_FEMALE", "Tutto");
+define("TXT_LAST_UPDATE", "Ultimo aggiornamento");
+define("TXT_TURTLE", "Tartaruga");
+define("TXT_TURTLES", "tartarughe");
+define("TXT_THEME", "Tema");
+define("TXT_ANIMAL", "Animale");
+define("TXT_METAL", "Metallo");
+define("TXT_MINERAL", "Minerale");
+define("TXT_SYNTHETIC", "Sintetico");
+define("TXT_EARTH", "Terra");
+define("TXT_VEGETAL", "Vegetale");
+define("TXT_GLASS_CRYSTAL", "Vetro-Cristallo");
+define("TXT_PER", "per");
+define("TXT_PAGE", "pagina");
+define("TXT_FROM", "da");
+
+?>

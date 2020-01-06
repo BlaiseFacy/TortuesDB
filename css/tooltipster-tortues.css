@@ -1,0 +1,14 @@
+.tooltipster-tortues {
+	border-radius: 5px; 
+	border-bottom: 3px solid #000000;
+	background: #e7ffe5;
+	/*background-image: url(../pics/fondTortueVert.png);*/
+	color: #000;
+}
+.tooltipster-tortues .tooltipster-content {
+	font-family: 'Courier', monospace;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}

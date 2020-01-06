@@ -1,0 +1,25 @@
+.tooltipster-tortues-info {
+	border-radius: 5px; 
+	border-bottom: 3px solid #000000;
+	background: #ffb931;
+	/*background-image: url(../pics/fondTortueVert.png);*/
+	color: #000;
+}
+.tooltipster-tortues-info .tooltipster-content {
+	font-family: 'Courier', monospace;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+.tooltipster-icon {
+	cursor: help;
+	margin-left: 4px;
+	background: #ffb931;
+	border: 0px solid #ffb931;
+	border-radius: 100%;
+	width: 3.3em;
+	height: 3.3em;
+	padding: 0.04em 0.04em 0.04em 0.04em;
+	margin: 0em 0 0 0em;
+}

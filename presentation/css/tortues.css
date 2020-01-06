@@ -1,0 +1,139 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #000;
+}
+h1 {
+	margin: 0px;
+}
+#sidebar-wrapper {
+	background-color: #F1E6D4;
+	background-image: url(../images/FBFy112.jpg);
+	background-repeat: repeat;
+	word-wrap: break-word;
+	border-right: 1px solid #FFCC00;
+	padding: 0px;
+}
+#page-content-wrapper {
+	background-color: #000;
+	padding: 0px;
+}
+#entete, #titre {
+	padding: 0px;
+	margin: 0px;
+}
+#hautDePage {
+	background-image: url(../images/FBFy112neg.jpg);
+	width: 100%;
+	border-bottom: 1px solid #FFCC00;
+	background-repeat: repeat;
+	word-wrap: break-word;
+	background-color: #000;
+	color: #FFCC00;
+	font-style: Times New Roman;
+}
+input[type=button], input[type=submit], input[type=reset], button, .button {
+	padding: 5px 15px;
+	margin: 3px 4px;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	background: #9b4c52;
+	background: linear-gradient(top, #9b4c52 0%, #823339 100%);
+	background: -moz-linear-gradient(top, #9b4c52 0%, #823339 100%);
+	background: -webkit-linear-gradient(top, #9b4c52 0%, #823339 100%);
+	background: -o-linear-gradient(top, #9b4c52 0%, #823339 100%);
+	border: 1px solid #000000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+	-moz-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+	-webkit-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+	-o-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.25), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.50);
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover, .button:hover {
+	color: #000000;
+	font-weight: bold;
+	background: linear-gradient(top, #FFCC00 0%, #9b4c52 100%);
+	background: -moz-linear-gradient(top, #FFCC00 0%, #9b4c52 100%);
+	background: -webkit-linear-gradient(top, #FFCC00 0%, #9b4c52 100%);
+	background: -o-linear-gradient(top, #FFCC00 0%, #9b4c52 100%);
+}
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active, .button:active{
+	opacity:0.8;
+}
+.bouton a {
+  display:inline-block;
+  width:200px;
+  line-height:67px;
+  text-align:center;
+  vertical-align:middle;
+  background:url(../images/tortueBoutonClose.png) no-repeat;
+  color:white;
+  font-size: 18px;
+  font-family: Arial;
+  text-decoration:none;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.50);
+}
+.bouton a:hover {
+  //background:url(../images/tortueBoutonOpen.png) no-repeat;
+  background:url(../images/tortueBoutonOpenYellow.png) no-repeat;
+  color:black;
+  font-weight:bold;
+  text-shadow:none;
+}
+.floating-box-rang {
+    display: inline-block;
+    width: 120px;
+    height: 200px;
+    margin: 5px;
+    border: 5px outset #FFCC99;
+	color: #FFCC99;
+	text-align: center;
+	font-size: 18;
+	padding: 5px;
+	vertical-align: top;
+}
+.floating-box-rang img {
+	padding-top: 20px;
+}
+.floating-box-outil {
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    margin: 5px;
+    border: 5px outset #FFCC99;
+	color: #FFCC99;
+	text-align: center;
+	font-size: 18;
+	padding: 5px;
+	vertical-align: top;
+}
+.floating-box-outil img {
+	vertical-align: middle;
+}
+.floating-box-outil:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+/*
+<input type="button" name="presentation" value="Présentation" onclick="parent.droite2.location.href='presentation.htm'"></br>
+<input type="button" name="raisons" value="Les raisons" onclick="parent.droite2.location.href='raisons.htm'"></br>
+<input type="button" name="outils" value="Les outils" onclick="parent.droite2.location.href='outils.htm'"></br>
+<input type="button" name="classement" value="Le classement" onclick="parent.droite2.location.href='classement.htm'"></br>
+<input type="button" name="chiffres" value="Des chiffres" onclick="parent.droite2.location.href='chiffres.htm'"></br>
+<input type="button" name="rangement" value="Le rangement" onclick="parent.droite2.location.href='rangement.htm'"></br>
+<input type="button" name="collection" value="La collection" onclick="window.open('http://rfy2.free.fr')"></br>
+<input type="button" name="photos" value="Des photos" onclick="parent.droite2.location.href='photos.htm'"></br>
+<input type="button" name="trouver" value="Je cherche" onclick="parent.droite2.location.href='trouver.htm'"></br>
+<input type="button" name="liens" value="Quelques liens" onclick="parent.droite2.location.href='liens.htm'"></br>
+<input type="button" name="Anglais" value="Résumé anglais" onclick="parent.droite2.location.href='Anglais.htm'"></br>
+<input type="button" name="humour" value="Coin humour" onclick="parent.droite2.location.href='humour.htm'"></br>
+*/

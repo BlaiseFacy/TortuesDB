@@ -1,0 +1,53 @@
+<?php
+
+define("TXT_HOME", "Inicio");
+define("TXT_SEARCH", "Búsqueda");
+define("TXT_STATS", "Estadística");
+define("TXT_NUMBER", "Número");
+define("TXT_CATEGORY", "Categoría");
+define("TXT_MATERIAL", "Material");
+define("TXT_FORM", "Forma");
+define("TXT_YEAR", "Año");
+define("TXT_NUMISMAT", "Sellos / Billetes / Moneda");
+define("TXT_PLACE", "Lugar");
+define("TXT_COLOR", "Color");
+define("TXT_WEIGHT", "Peso");
+define("TXT_SIZE", "Tamaño");
+define("TXT_VOLUME", "Volumen");
+define("TXT_DIMENSIONS", "Dimensiones");
+define("TXT_PRICE", "Precio");
+define("TXT_QUANTITY", "Cantitad");
+define("TXT_TYPE", "Tipo");
+define("TXT_GROUP_BY", "Grupo por");
+define("TXT_SORT_BY", "Ordenar por");
+define("TXT_ASCENDING", "Ascendente");
+define("TXT_DESCENDING", "Descendente");
+define("TXT_FILTER_BOOKMARKS", "Filtro los marcadores");
+define("TXT_MAIN_MATERIAL", "Principal material");
+define("TXT_EXACT_FORM", "Forma exacta");
+define("TXT_EXACT_PLACE", "Lugar exacta");
+define("TXT_EXACT_COLOR", "Color exacta");
+define("TXT_PHOTO", "Foto");
+define("TXT_COMMENTS", "Commentarios");
+define("TXT_YEAR_OF_ISSUE", "Emisión año");
+define("TXT_PLACE_OF_ISSUE", "Emisión lugar ");
+define("TXT_NUMISMATIC", "numismático");
+define("TXT_SEARCH_FILTERS", "FILTROS DE BÚSQUEDA");
+define("TXT_ALL_MALE", "Todos");
+define("TXT_ALL_FEMALE", "Todos");
+define("TXT_LAST_UPDATE", "Última actualización");
+define("TXT_TURTLE", "Tortuga");
+define("TXT_TURTLES", "tortugas");
+define("TXT_THEME", "Tema");
+define("TXT_ANIMAL", "Animal");
+define("TXT_METAL", "Metal");
+define("TXT_MINERAL", "Mineral");
+define("TXT_SYNTHETIC", "Sintético");
+define("TXT_EARTH", "Tierra");
+define("TXT_VEGETAL", "Vegetal");
+define("TXT_GLASS_CRYSTAL", "Vidrio-Cristal");
+define("TXT_PER", "por");
+define("TXT_PAGE", "página");
+define("TXT_FROM", "desde");
+
+?>
