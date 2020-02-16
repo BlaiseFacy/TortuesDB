@@ -739,7 +739,7 @@ function constructQueryParams()
 //////////////////////// Les fonctions Javascript qui gèrent la navigation ////////////////////
 
 var tab_loading_thumbs = new Array();
-var ordre_liste = { 'numero':'<?php echo TXT_NUMBER ?>', 'categorie':'<?php echo TXT_CATEGORY ?>', 'materiaux':'<?php echo TXT_MATERIAL ?>', 'forme':'<?php echo TXT_FORM ?>', 'observations':'<?php echo TXT_COMMENTS ?>', 'annee':'<?php echo TXT_YEAR ?>', 'lieu_tn':'<?php echo TXT_PLACE ?>(numism)', 'annee_tn':'<?php echo TXT_YEAR ?>(numism)' };
+var ordre_liste = { 'numero':'<?php echo TXT_NUMBER ?>', 'categorie':'<?php echo TXT_CATEGORY ?>', 'materiaux':'<?php echo TXT_MATERIAL ?>', 'forme':'<?php echo TXT_FORM ?>', 'observations':'<?php echo TXT_COMMENTS ?>', 'annee':'<?php echo TXT_YEAR ?>', 'lieu_tn':'<?php echo TXT_PLACE ?>(numism)', 'annee_tn':'<?php echo TXT_YEAR ?>(numism)' <?php if (isset($_SESSION["accesPrix"]) && $_SESSION["accesPrix"] == "oui") echo ", 'prix':'".TXT_PRICE."'"; ?>};
 
 var isTactile = <?php if (isTactile()) echo "true"; else echo "false"; ?>;
 
